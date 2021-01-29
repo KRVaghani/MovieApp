@@ -1,0 +1,78 @@
+#searchh1 {
+    margin-top: 15%;
+}
+body {
+    background-color: #f5f5f5;
+}
+
+.card-title{
+    font-family: Lato;
+}
+.card {
+    margin-left: 12.5%;
+}
+.card-img {
+    height: 24rem;
+}
+#searchHeading {
+    margin-left: 12.5%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+
+.site-footer
+{
+  background-color:#000000;
+  padding:30px 0 30px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  
+}
+
+
+
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#198754;
+  text-decoration:none;
+}
+
+.site-footer
+{
+  text-align:right
+}
+
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer 
+  {
+    text-align:center
+  }
+}
