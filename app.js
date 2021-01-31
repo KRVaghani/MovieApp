@@ -17,13 +17,13 @@ app.get('/results',(req,res)=>{
             console.log('error');
         }
         let data = JSON.parse(body);
-        res.render('movies', {data:data, searchQuery:query}); // movie ejb file is loaded
+        res.render('movies', {data:data, searchQuery:query});
         
     }); 
 })
 
 app.get('/search',(req,res)=>{
-    res.render('search'); // for this search ejb file is loaded
+    res.render('search');
 });
 
 
